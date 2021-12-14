@@ -10,13 +10,13 @@ class Day14Test {
 
     @Test
     fun testPartOne() {
-//        assertThat(dayFourteen.partOne(), `is`())
+        assertThat(dayFourteen.partOne(), `is`(3697))
         println("Part one answer: ${dayFourteen.partOne()}")
     }
 
     @Test
     fun testPartTwo() {
-//        assertThat(dayFourteen.partTwo(), `is`())
+        assertThat(dayFourteen.partTwo(), `is`(4371307836157L))
         println("Part two answer: ${dayFourteen.partTwo()}")
     }
 }
